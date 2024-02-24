@@ -8,7 +8,6 @@ public class Student implements Cloneable {
 
 	public Student() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Student(int rollNo, String name) {
@@ -40,7 +39,6 @@ public class Student implements Cloneable {
 
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
-		// TODO Auto-generated method stub
 		return super.clone();
 	}
 

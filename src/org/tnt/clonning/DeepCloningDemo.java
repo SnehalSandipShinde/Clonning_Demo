@@ -12,11 +12,10 @@ public class DeepCloningDemo {
 		System.out.println("emp2"+emp2);
 		
 		emp1.getDepartment().setDeptName("HR");
+		emp2.setName("Sham");
 		System.out.println("--------After-------");
 		
 		System.out.println("emp1"+emp1);
 		System.out.println("emp2"+emp2);
-		
-
 	}
 }
